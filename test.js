@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   let start = now()
   setTimeout(function() {
     let end = now()
-    console.log(start-end)
+    console.log((start-end)/1000)
   }, 2000)
 })
 
