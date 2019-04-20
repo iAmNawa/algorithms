@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Here I will be looking at algorithms, Big O, and run times.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAmNawa/algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAmNawa/algorithms/issues"
+  },
+  "homepage": "https://github.com/iAmNawa/algorithms#readme",
+  "dependencies": {
+    "performance-now": "^2.1.0"
+  }
+}
