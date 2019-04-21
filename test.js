@@ -1,14 +1,11 @@
-const express = require('express')
-const now = require('performance-now')
-const app = express()
-const port = 4000
+let arr = [1,2,3,4,5]
+//console.log(arr[2])
 
-app.get('/', (req, res) => {
-  let start = now()
-  setTimeout(function() {
-    let end = now()
-    console.log((start-end)/1000)
-  }, 2000)
-})
-
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+let obj = {
+  1: 'Merissa',
+  3: 28,
+  2: 'caffiene',
+  5: 'not talking',
+  4: false
+}
+console.log(obj[3])
